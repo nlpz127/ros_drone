@@ -131,8 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pzlu/p450/build/gtest/cmake_install.cmake")
-  include("/home/pzlu/p450/build/move_cmd/cmake_install.cmake")
-  include("/home/pzlu/p450/build/recall_video/cmake_install.cmake")
+  include("/home/pzlu/p450/build/cmd_video/cmake_install.cmake")
   include("/home/pzlu/p450/build/ros_test/cmake_install.cmake")
 
 endif()

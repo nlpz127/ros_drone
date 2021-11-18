@@ -1,0 +1,8 @@
+prefix=/home/pzlu/p450/devel
+
+Name: cmd_video
+Description: Description of cmd_video
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
