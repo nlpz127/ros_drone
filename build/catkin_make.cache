@@ -1,0 +1,2 @@
+move_cmd:recall_video:ros_test
+-DCATKIN_DEVEL_PREFIX=/home/pzlu/p450/devel -DCMAKE_INSTALL_PREFIX=/home/pzlu/p450/install -G Unix Makefiles
