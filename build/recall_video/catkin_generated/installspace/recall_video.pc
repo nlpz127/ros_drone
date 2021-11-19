@@ -1,8 +1,0 @@
-prefix=/home/pzlu/p450/install
-
-Name: recall_video
-Description: Description of recall_video
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

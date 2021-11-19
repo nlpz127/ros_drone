@@ -3,6 +3,6 @@ prefix=/home/pzlu/p450/devel
 Name: cmd_video
 Description: Description of cmd_video
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/pzlu/p450/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rosmsg rospy std_msgs message_runtime

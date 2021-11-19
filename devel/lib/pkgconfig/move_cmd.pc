@@ -1,8 +1,0 @@
-prefix=/home/pzlu/p450/devel
-
-Name: move_cmd
-Description: Description of move_cmd
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

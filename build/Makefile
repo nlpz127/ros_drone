@@ -285,6 +285,188 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_eus
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cmd_video/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named cmd_video_geneus
+
+# Build rule for target.
+cmd_video_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_geneus
+.PHONY : cmd_video_geneus
+
+# fast build rule for target.
+cmd_video_geneus/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_geneus.dir/build.make cmd_video/CMakeFiles/cmd_video_geneus.dir/build
+.PHONY : cmd_video_geneus/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_nodejs
+
+# Build rule for target.
+roscpp_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_eus
+
+# Build rule for target.
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_py.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named cmd_video_genlisp
+
+# Build rule for target.
+cmd_video_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_genlisp
+.PHONY : cmd_video_genlisp
+
+# fast build rule for target.
+cmd_video_genlisp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_genlisp.dir/build.make cmd_video/CMakeFiles/cmd_video_genlisp.dir/build
+.PHONY : cmd_video_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named cmd_video_generate_messages_py
+
+# Build rule for target.
+cmd_video_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages_py
+.PHONY : cmd_video_generate_messages_py
+
+# fast build rule for target.
+cmd_video_generate_messages_py/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages_py.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages_py.dir/build
+.PHONY : cmd_video_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
 
 # Build rule for target.
@@ -311,43 +493,17 @@ std_msgs_generate_messages_nodejs/fast:
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
+# Target rules for targets named cmd_video_generate_messages_nodejs
 
 # Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
+cmd_video_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages_nodejs
+.PHONY : cmd_video_generate_messages_nodejs
 
 # fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_eus
-
-# Build rule for target.
-roscpp_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+cmd_video_generate_messages_nodejs/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages_nodejs.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages_nodejs.dir/build
+.PHONY : cmd_video_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -363,43 +519,56 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
+# Target rules for targets named cmd_video_generate_messages
 
 # Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
+cmd_video_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages
+.PHONY : cmd_video_generate_messages
 
 # fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_py.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
+cmd_video_generate_messages/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages.dir/build
+.PHONY : cmd_video_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_eus
+# Target rules for targets named cmd_video_gennodejs
 
 # Build rule for target.
-std_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
-.PHONY : std_msgs_generate_messages_eus
+cmd_video_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_gennodejs
+.PHONY : cmd_video_gennodejs
 
 # fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
+cmd_video_gennodejs/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_gennodejs.dir/build.make cmd_video/CMakeFiles/cmd_video_gennodejs.dir/build
+.PHONY : cmd_video_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_nodejs
+# Target rules for targets named cmd_video_generate_messages_cpp
 
 # Build rule for target.
-roscpp_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
-.PHONY : roscpp_generate_messages_nodejs
+cmd_video_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages_cpp
+.PHONY : cmd_video_generate_messages_cpp
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
+cmd_video_generate_messages_cpp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages_cpp.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages_cpp.dir/build
+.PHONY : cmd_video_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _cmd_video_generate_messages_check_deps_cmd
+
+# Build rule for target.
+_cmd_video_generate_messages_check_deps_cmd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cmd_video_generate_messages_check_deps_cmd
+.PHONY : _cmd_video_generate_messages_check_deps_cmd
+
+# fast build rule for target.
+_cmd_video_generate_messages_check_deps_cmd/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/_cmd_video_generate_messages_check_deps_cmd.dir/build.make cmd_video/CMakeFiles/_cmd_video_generate_messages_check_deps_cmd.dir/build
+.PHONY : _cmd_video_generate_messages_check_deps_cmd/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_cpp
@@ -415,69 +584,56 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
+# Target rules for targets named cmd_video_gencpp
 
 # Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
+cmd_video_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_gencpp
+.PHONY : cmd_video_gencpp
 
 # fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cmd_video/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
+cmd_video_gencpp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_gencpp.dir/build.make cmd_video/CMakeFiles/cmd_video_gencpp.dir/build
+.PHONY : cmd_video_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_eus
+# Target rules for targets named cmd_video_generate_messages_eus
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
-.PHONY : rosgraph_msgs_generate_messages_eus
+cmd_video_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages_eus
+.PHONY : cmd_video_generate_messages_eus
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
+cmd_video_generate_messages_eus/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages_eus.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages_eus.dir/build
+.PHONY : cmd_video_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+# Target rules for targets named cmd_video_generate_messages_lisp
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
+cmd_video_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_generate_messages_lisp
+.PHONY : cmd_video_generate_messages_lisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+cmd_video_generate_messages_lisp/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_generate_messages_lisp.dir/build.make cmd_video/CMakeFiles/cmd_video_generate_messages_lisp.dir/build
+.PHONY : cmd_video_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_lisp
+# Target rules for targets named cmd_video_genpy
 
 # Build rule for target.
-roscpp_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
-.PHONY : roscpp_generate_messages_lisp
+cmd_video_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_video_genpy
+.PHONY : cmd_video_genpy
 
 # fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cmd_video/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_py
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cmd_video/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
+cmd_video_genpy/fast:
+	$(MAKE) -f cmd_video/CMakeFiles/cmd_video_genpy.dir/build.make cmd_video/CMakeFiles/cmd_video_genpy.dir/build
+.PHONY : cmd_video_genpy/fast
 
 # Help Target
 help:
@@ -501,21 +657,33 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... cmd_video_geneus"
+	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... cmd_video_genlisp"
+	@echo "... cmd_video_generate_messages_py"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... cmd_video_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... cmd_video_generate_messages"
+	@echo "... cmd_video_gennodejs"
+	@echo "... cmd_video_generate_messages_cpp"
+	@echo "... _cmd_video_generate_messages_check_deps_cmd"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... cmd_video_gencpp"
+	@echo "... cmd_video_generate_messages_eus"
+	@echo "... cmd_video_generate_messages_lisp"
+	@echo "... cmd_video_genpy"
 .PHONY : help
 
 
