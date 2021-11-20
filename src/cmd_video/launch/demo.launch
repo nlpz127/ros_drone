@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="cmd_video" type="rgb" name="listen_rgb" />
+    <!-- output="screen" -->
+    <node pkg="cmd_video" type="depth" name="listen_depth"/>
+</launch>
